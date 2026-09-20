@@ -34,7 +34,7 @@
         {
           "buildVersion": "1",
           "date": "2026-09-20T00:00:00Z",
-          "downloadURL": "https://example.com/MyApp/manifest.json",
+          "downloadURL": "https://raw.githubusercontent.com/rizeruhosi/p/refs/heads/main/manifest.json",
           "localizedDescription": "初回リリース",
           "size": 12345678,
           "version": "1.0.0"
