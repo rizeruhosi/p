@@ -4,81 +4,47 @@
       "appPermissions": {
         "entitlements": [
           {
-            "name": "com.apple.example.entitlement"
+            "name": "aps-environment"
           },
           {
-            "name": "com.apple.example.another-entitlement"
+            "name": "com.apple.developer.applesignin"
           }
         ],
         "privacy": [
           {
             "name": "NSCameraUsageDescription",
-            "usageDescription": "カメラを使用する理由"
-          },
-          {
-            "name": "NSFaceIDUsageDescription",
-            "usageDescription": "Face IDを使用する理由"
-          },
-          {
-            "name": "NSLocationWhenInUseUsageDescription",
-            "usageDescription": "位置情報を使用する理由"
-          },
-          {
-            "name": "NSMicrophoneUsageDescription",
-            "usageDescription": "マイクを使用する理由"
-          },
-          {
-            "name": "NSPhotoLibraryAddUsageDescription",
-            "usageDescription": "写真ライブラリを使用する理由"
+            "usageDescription": "このアプリではカメラを使用します。"
           }
         ]
       },
-
-      "bundleIdentifier": "com.example.app",
+      "bundleIdentifier": "jp.uuum.playingescape",
       "category": "other",
-      "developerName": "開発者名",
-
-      "iconURL": "https://example.com/icon.png",
-
-      "localizedDescription": "アプリの詳しい説明",
-
-      "marketplaceID": "1234567890",
-
-      "name": "アプリ名",
-
+      "developerName": "Developer",
+      "iconURL": "https://raw.githubusercontent.com/U5KUN/pe/refs/heads/main/img/appicon.png",
+      "localizedDescription": "アプリの説明です。",
+      "marketplaceID": "114514518",
+      "name": "pe",
       "screenshots": {
         "iphone": [
-          "https://example.com/screenshot-1.png",
-          "https://example.com/screenshot-2.png"
+          "https://example.com/screenshot1.png"
         ]
       },
-
-      "subtitle": "アプリの短い説明",
-
+      "subtitle": "アプリのサブタイトル",
       "versions": [
         {
           "buildVersion": "1",
-          "date": "2026-01-01T00:00:00Z",
-
-          "downloadURL": "https://example.com/releases/download/1.0.0/manifest.json",
-
-          "localizedDescription": "このバージョンの変更内容",
-
-          "size": 5000000,
-
+          "date": "2026-09-20T00:00:00Z",
+          "downloadURL": "https://example.com/MyApp/manifest.json",
+          "localizedDescription": "初回リリース",
+          "size": 12345678,
           "version": "1.0.0"
         }
       ]
     }
   ],
-
-  "description": "マーケットの詳しい説明",
-
-  "iconURL": "https://example.com/marketplace-icon.png",
-
-  "name": "マーケット名",
-
-  "subtitle": "マーケットの短い説明",
-
-  "website": "https://example.com/"
+  "description": "",
+  "iconURL": "https://example.com/catalog-icon.png",
+  "name": "RI",
+  "subtitle": "RI",
+  "website": "https://example.com"
 }
