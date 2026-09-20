@@ -1,0 +1,84 @@
+{
+  "apps": [
+    {
+      "appPermissions": {
+        "entitlements": [
+          {
+            "name": "com.apple.example.entitlement"
+          },
+          {
+            "name": "com.apple.example.another-entitlement"
+          }
+        ],
+        "privacy": [
+          {
+            "name": "NSCameraUsageDescription",
+            "usageDescription": "カメラを使用する理由"
+          },
+          {
+            "name": "NSFaceIDUsageDescription",
+            "usageDescription": "Face IDを使用する理由"
+          },
+          {
+            "name": "NSLocationWhenInUseUsageDescription",
+            "usageDescription": "位置情報を使用する理由"
+          },
+          {
+            "name": "NSMicrophoneUsageDescription",
+            "usageDescription": "マイクを使用する理由"
+          },
+          {
+            "name": "NSPhotoLibraryAddUsageDescription",
+            "usageDescription": "写真ライブラリを使用する理由"
+          }
+        ]
+      },
+
+      "bundleIdentifier": "com.example.app",
+      "category": "other",
+      "developerName": "開発者名",
+
+      "iconURL": "https://example.com/icon.png",
+
+      "localizedDescription": "アプリの詳しい説明",
+
+      "marketplaceID": "1234567890",
+
+      "name": "アプリ名",
+
+      "screenshots": {
+        "iphone": [
+          "https://example.com/screenshot-1.png",
+          "https://example.com/screenshot-2.png"
+        ]
+      },
+
+      "subtitle": "アプリの短い説明",
+
+      "versions": [
+        {
+          "buildVersion": "1",
+          "date": "2026-01-01T00:00:00Z",
+
+          "downloadURL": "https://example.com/releases/download/1.0.0/manifest.json",
+
+          "localizedDescription": "このバージョンの変更内容",
+
+          "size": 5000000,
+
+          "version": "1.0.0"
+        }
+      ]
+    }
+  ],
+
+  "description": "マーケットの詳しい説明",
+
+  "iconURL": "https://example.com/marketplace-icon.png",
+
+  "name": "マーケット名",
+
+  "subtitle": "マーケットの短い説明",
+
+  "website": "https://example.com/"
+}
