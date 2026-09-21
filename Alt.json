@@ -11,6 +11,7 @@
         {
             "name": "Playing Escape",
             "bundleIdentifier": "jp.uuum.playingescape",
+            "marketplaceID": "1456221194",
             "developerName": "Example Developer",
             "subtitle": "Playing Escape",
             "localizedDescription": "Playing Escape",
